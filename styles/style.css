@@ -597,3 +597,518 @@ footer {
     font-size: 0.8rem;
     font-weight: 500;
 }
+@media screen and (max-width:425px) {
+    header nav {
+        height: auto;
+        box-shadow: none;
+    }
+
+    .nav-container {
+        height: auto;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .nav-menu ul {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .banner-section {
+        background: none;
+        margin-top: 30px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-image img {
+        width: 70%;
+    }
+
+    .banner-description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .banner-description-headings h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .banner-description-headings h1 {
+        font-size: 4.5rem;
+    }
+
+    .gamer-section {
+        background: none;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gamer-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gamer-image img {
+        width: 70%;
+    }
+
+    .gamer-description {
+        width: 70%;
+        text-align: center;
+    }
+
+    .gamer-description h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .gamer-description p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .gamer-description .purpose h3 {
+        font-size: 1.2rem;
+    }
+
+    .online-games-descriptions h2 {
+        font-size: 1.4rem;
+    }
+
+    .online-games-descriptions p {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    .online-games-cards {
+        width: 65%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card p {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .play-section .play-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .play-description {
+        width: 70%;
+        text-align: center;
+    }
+
+    .play-description h2 {
+        font-size: 1.8rem;
+    }
+
+    .play-description p {
+        font-size: 0.8rem;
+    }
+
+    .play-images {
+        width: 55%;
+    }
+
+    .play-images .secondary-image {
+        width: 50%;
+        top: 180px;
+        left: -50px;
+    }
+
+    .second-play-section .second-play-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .second-play-description {
+        width: 70%;
+        text-align: center;
+    }
+
+    .second-play-description h2 {
+        font-size: 1.8rem;
+    }
+
+    .second-play-description p {
+        font-size: 0.7rem;
+    }
+
+    .second-play-images {
+        width: 55%;
+    }
+
+    .second-play-images .secondary-image {
+        width: 50%;
+        top: 150px;
+        right: -50px;
+    }
+
+    .career-container {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .career-description {
+        width: 70%;
+    }
+
+    .career-description h2 {
+        font-size: 1.8rem;
+    }
+
+    .career-description p {
+        font-size: 0.8rem;
+    }
+
+    .career-description button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .career-image {
+        width: 80%;
+    }
+
+    .arcade-container {
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .arcade-games img {
+        width: 30px;
+    }
+
+    .arcade-games h5 {
+        font-size: 0.7rem;
+    }
+
+    .footer-logo img {
+        width: 50px;
+    }
+
+    .footer-logo h3 {
+        font-size: 1.5rem;
+        color: #FFF;
+    }
+
+    .footer-menus {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+}
+
+
+@media screen and (min-width:426px) and (max-width: 768px) {
+    header nav {
+        height: auto;
+        box-shadow: none;
+    }
+
+    .nav-container {
+        height: auto;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .nav-menu ul {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .banner-section {
+        background: none;
+        margin-top: 30px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-image img {
+        width: 75%;
+    }
+
+    .banner-description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .banner-description-headings h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .banner-description-headings h1 {
+        font-size: 5rem;
+    }
+
+    .gamer-section {
+        background: none;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .gamer-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gamer-image img {
+        width: 75%;
+    }
+
+    .gamer-description {
+        width: 75%;
+        text-align: center;
+    }
+
+    .gamer-description h2 {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .gamer-description p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .gamer-description .purpose h3 {
+        font-size: 1.5rem;
+    }
+
+    .online-games-descriptions h2 {
+        font-size: 1.5rem;
+    }
+
+    .online-games-descriptions p {
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    .online-games-cards {
+        width: 75%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .play-section .play-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .play-description {
+        width: 75%;
+        text-align: center;
+    }
+
+    .play-description h2 {
+        font-size: 2rem;
+    }
+
+    .play-description p {
+        font-size: 0.9rem;
+    }
+
+    .play-images {
+        width: 60%;
+    }
+
+    .play-images .secondary-image {
+        width: 50%;
+        top: 280px;
+        left: -90px;
+    }
+
+    .second-play-section .second-play-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .second-play-description {
+        width: 75%;
+        text-align: center;
+    }
+
+    .second-play-description h2 {
+        font-size: 2rem;
+    }
+
+    .second-play-description p {
+        font-size: 0.8rem;
+    }
+
+    .second-play-images {
+        width: 60%;
+    }
+
+    .second-play-images .secondary-image {
+        width: 50%;
+        top: 220px;
+        right: -80px;
+    }
+
+    .career-container {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .career-description {
+        width: 75%;
+    }
+
+    .career-description h2 {
+        font-size: 2rem;
+    }
+
+    .career-description p {
+        font-size: 0.9rem;
+    }
+
+    .career-image {
+        width: 80%;
+    }
+
+    .arcade-container {
+        width: 65%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .arcade-games img {
+        width: 30px;
+    }
+
+    .arcade-games h5 {
+        font-size: 0.7rem;
+    }
+
+    .footer-logo img {
+        width: 70px;
+    }
+
+    .footer-logo h3 {
+        font-size: 1.8rem;
+        color: #FFF;
+    }
+
+    .footer-menus {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .footer-text p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px) {
+    .nav-container {
+        max-width: 770px;
+    }
+
+    .banner-container {
+        max-width: 770px;
+    }
+
+    .gamer-container {
+        max-width: 770px;
+    }
+
+    .online-games-section {
+        max-width: 770px;
+    }
+
+    .card-container {
+        max-width: 300px;
+    }
+
+    .play-section {
+        max-width: 770px;
+    }
+
+    .second-play-section {
+        max-width: 770px;
+    }
+
+    .career-container {
+        max-width: 770px;
+    }
+
+    .arcade-container {
+        max-width: 770px;
+    }
+
+    .footer-container {
+        max-width: 770px;
+    }
+}
