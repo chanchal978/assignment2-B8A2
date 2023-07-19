@@ -175,3 +175,70 @@ header nav {
 .banner-image img {
     width: 100%;
 }
+.secend-banner {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.secend-banner-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 40px;
+}
+
+.secend-banner-image {
+    width: 60%;
+}
+
+.secend-banner-image img {
+    width: 100%;
+}
+
+.secend-banner-description {
+    width: 40%;
+    text-align: right;
+}
+
+.secend-banner-description h2 {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.secend-banner-description p {
+    color: #534C64;
+    text-align: right;
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.secend-banner-description button {
+    padding: 13px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.secend-banner-description .purpose h3 {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.secend-banner-description .purpose h3 small {
+    font-weight: 500;
+    font-size: 1rem;
+}
