@@ -502,3 +502,98 @@ header nav {
     color: #FF42A5;
     transition: 0.2s;
 }
+footer {
+    background: #0B0223;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 70px;
+}
+
+.footer-logo h3 {
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.footer-logo .pink {
+    color: #FF42A5;
+}
+
+.footer-menus {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 10px;
+    justify-items: center;
+}
+
+.footer-menus a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px;
+}
+
+.footer-menus a:hover {
+    text-decoration: underline;
+}
+
+.footer-icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 25px;
+    justify-items: center;
+}
+
+.footer-icons a {
+    color: #FFF;
+    font-size: 1.7rem;
+}
+
+.footer-icons a:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    justify-items: center;
+}
+
+.footer-links a {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-text p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
